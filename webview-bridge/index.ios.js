@@ -29,7 +29,6 @@ var {
   Text,
   View,
   ViewPropTypes,
-  WebView,
   requireNativeComponent,
   UIManager,
   NativeModules: {
@@ -99,7 +98,6 @@ var WebViewBridge = createReactClass({
   },
 
   propTypes: {
-    ...WebView.propTypes,
 
     /**
      * Will be called once the message is being sent from webview
